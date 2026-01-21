@@ -1,4 +1,4 @@
-![Logo de Python](https://www.python.org/static/community_logos/python-logo.png)
+![Logo del_Curso Python](./python.png)
 
 # Curso de Python para Principiantes
 

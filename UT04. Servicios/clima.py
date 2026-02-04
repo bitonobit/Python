@@ -8,12 +8,12 @@ def clima():
     print("____________________________________")
     lat = input("Introduce latitud: ")
     lon = input("Introduce longitud: ")
-    apiKey = input("Introduce La API_Key: ")
+    # Pedir API Key de forma segura
+    apiKey = getpass("Introduce tu OpenWeather API Key: ")
     part = "hourly,daily"
     url=f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&exclude={part}&appid={apiKey}"
   
     try:
-        # print(url)
         respuesta = request.urlopen(url)
         datos = respuesta.read().decode("utf-8")
         datos_json = json.loads(datos)
@@ -27,7 +27,7 @@ def clima():
 
     except error.HTTPError as e:
         if e.code == 404:
-            print("\nError: No se ha encontrado la ciudad. Revisa el nombre.")
+            print("\nError: No se ha encontrado la ciudad. Revisa latitud y longitud.")
         elif e.code == 401:
             print("\nError: La API Key no es válida.")
         else:

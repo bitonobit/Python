@@ -1,0 +1,1 @@
+Importante: no olvides que para que funcione el archivo debe existir y estar dentro del directorio donde se ejecuta el script

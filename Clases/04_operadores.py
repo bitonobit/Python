@@ -2,11 +2,11 @@
 #            Operadores Aritméticos
 # *************************************************
 # Operator	    Name	           Ejemplo
-#   +	        Suma       	        x + y	
-#   -	        Resta	            x - y	
-#   *	        Multiplicación	    x * y	
-#   /	        División	        x / y	
-#   %	        Módulo	            x % y	
+#   +	          Suma       	        x + y	
+#   -	          Resta	              x - y	
+#   *	          Multiplicación	    x * y	
+#   /	          División	          x / y	
+#   %	          Módulo	            x % y	
 #   **          Exponenciación	    x ** y	
 #   //          Floor división	    x // y
 
@@ -17,6 +17,7 @@ x4=6/3
 x5=8%2
 x6=3**2
 x7= 7//2
+
 # *************************************************
 #           Operadores de cancatenación
 # *************************************************
@@ -25,7 +26,7 @@ nombre='Candy'
 apellido='González'
 nombreCompleto= nombre + ' ' + apellido     # Concatenar 
 # NO se puede concatenar un cadena y un número, 
-# en su lugar se usa f{}
+# en su lugar se usa f{} para formatear cadenas
 edad = 51
 saludo = f"Mi nombre es Candy y tengo {edad} años"
 print(saludo)
@@ -40,19 +41,19 @@ res=f"El valor de pi es {10 *5}"    # Se pueden hacer operaciones matemáticas i
 #           Operadores de asignación
 # *************************************************
 # Operador	    Ejemplo	    Igual a	 
-#   =	        x = 5	    x = 5	
+#   =	          x = 5	    x = 5	
 #   +=	        x += 3	    x = x + 3	
 #   -=	        x -= 3	    x = x - 3	
 #   *=	        x *= 3	    x = x * 3	
 #   /=	        x /= 3	    x = x / 3	
 #   %=	        x %= 3	    x = x % 3	
-#   //= 	    x //= 3	    x = x // 3	
-#   **= 	    x **= 3	    x = x ** 3	
+#   //= 	      x //= 3	    x = x // 3	
+#   **= 	      x **= 3	    x = x ** 3	
 #   &=	        x &= 3	    x = x & 3	
 #   |=	        x |= 3	    x = x | 3	
 #   ^=	        x ^= 3	    x = x ^ 3	
-#   >>= 	    x >>= 3	    x = x >> 3	
-#   <<= 	    x <<= 3	    x = x << 3
+#   >>= 	      x >>= 3	    x = x >> 3	
+#   <<= 	      x <<= 3	    x = x << 3
 
 # **********************************************
 #     Operadores de comparación
@@ -80,18 +81,18 @@ res=f"El valor de pi es {10 *5}"    # Se pueden hacer operaciones matemáticas i
 #   is 	        Devuelve verdad si ambas son el mismo objeto         x is y	
 #   is not	    Devuelve verdad si ambas NO son el mismo objeto      x is not y	
 
-# **************************************************************************************************
+# ********************************************************************************
 #                         Operadores de membresía
-# **************************************************************************************************
+# ********************************************************************************
 #   Los operadores de membresía se utilizan para probar si una secuencia se presenta en un objeto:
 
 # Operador	    Descripción	                            Ejemplo
 #   in 	        Devuelve True si está presente	        x in y	
 #   not in	    Devuelve True si NO está presente     x not in y	
 
-# ********************************************************************************************************
+# ********************************************************************************
 #                         Operadores bit a bit 
-# ********************************************************************************************************
+# ********************************************************************************
 # Los operadores bit a bit se utilizan para comparar números (binarios):
 
 # Operador  Nombre	                Descripción	                                                Ejemplo

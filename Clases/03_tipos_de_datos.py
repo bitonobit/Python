@@ -1,8 +1,8 @@
 # *******************************************************
 #                   Números
 # *******************************************************
-x = 1       # int -  entero, positivo o negativo, sin decimales, de longitud ilimitada
-y = 2.8     # float -  número, positivo o negativo, que contiene uno o más decimales
+x = 1       # int - entero positivo o negativo sin decimales 
+y = 2.8     # float - número positivo o negativo con decimales
 x = 35e3    # float también
 y = 12E4
 z = -87.7e100
@@ -13,13 +13,15 @@ z = 1j      # complex - Los números complejos se escriben con una "j" como part
 # Las cadenas son listas
 # *******************************************************
 
-a="Candy"       # str - Cedena de caracteres
+a="Candy"       # str - Cadena de caracteres
 a = """Lorem ipsum dolor sit amet,
 consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."""
 print(a)        # Muestra los saltos de línea
 print(a[0])     # Muestra la L
+print("Hola", end=" ")  # El argumento end se utiliza para especificar lo que se imprimirá al final de la salida. El espacio evita el salto de línea después de "Hola"
+print("Mundo")   # Esto se imprimirá en la misma línea que "Hola"
 
 # **********************************
 #   Anidar comillas

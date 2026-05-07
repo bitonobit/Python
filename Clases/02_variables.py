@@ -3,14 +3,6 @@ a = 5
 b = "Candy González"
 c = 'Candy González' #Puedes usar también 'comillas simples'
 
-#Python te permite asignar valores a múltiples variables en una línea:
-x, y, z = "Bitonobit", "Python", "Candy"
-print(x)
-print(y)
-print(z)
-# O también podría ser:
-print(x + y + z)
-
 
 # **********************************
 #   Anidar comillas

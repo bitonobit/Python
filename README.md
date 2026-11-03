@@ -1,4 +1,4 @@
-![Logo del_Curso Python](./python.png)
+![Logo del_Curso Python](./python1.png)
 
 # Curso de Python para Principiantes
 
